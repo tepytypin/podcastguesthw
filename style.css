@@ -1,0 +1,301 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    /* font size is 16px, so its just a way of adjusting the px*/
+    /* similar to rem */
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.logo {
+
+}
+
+.logo-text {
+    font-size: 3.2rem;
+    text-decoration: none;
+    color: rgb(7, 7, 7);
+    text-shadow: 0px 2px 4px grey;
+}
+
+
+.dot {
+    color: rgb(177, 17, 17);
+}
+
+.menu {
+    padding: 1rem;
+}
+
+#nav-links {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* audio::-webkit-media-controls-panel {
+    
+}  */
+
+
+audio {
+    width: 100%;
+}
+
+
+input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.4rem;
+    outline: none;
+    border: none;
+    border-radius: .5rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    
+    height: 3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+input[type="submit"] {
+
+    padding: .5rem 1rem;
+    font-weight: bold;
+    background-color: brown;
+    color: white;
+    transition: 0.25s all linear;
+}
+
+input[type="submit"]:hover {
+    transform: translateY(-.15rem);
+    box-shadow: 0 4px 8px black;
+}
+
+
+/* START FROM HERE */
+/* HEADER STYLE */
+
+
+
+
+
+
+/* BANNER STYLE */
+.wrapper {
+    padding: 2rem 1rem;
+}
+
+.text {
+    text-align: center;
+}
+
+.text h1 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: gray;
+}
+
+.text p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: dimgray;
+}
+
+.image img {
+    width: 50rem;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* BANNER STYLE */
+
+
+
+
+
+/* PODCAST */
+
+
+
+
+
+
+
+/* PODCASTERS */
+
+.profile-img {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 2px solid grey;
+    margin-right: 5px;
+    
+}
+
+.profile {
+    width: 200px;
+    margin-bottom: 10px;
+
+    display: flex;
+    align-items: center;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.profle-info h4, p {
+    margin-bottom: 5px;
+}
+
+.profiles-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+
+
+
+/* EPISODES */
+
+.eps {
+    height: 600px;
+    width: 90%;
+    background-color: rgb(67, 76, 88);
+    margin-bottom: 5px;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail {
+    height: 50%;
+    width: 100%;
+
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px 15px 0 0;
+}
+
+.eps-detail {
+    height: 50%;
+    padding: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.all-eps {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
+
+.paginations {
+    text-align: center;
+    height: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paginations a {
+    text-decoration: none;
+    padding: 0.4rem 0.6rem;
+    border-radius: 50%;
+    border: 1px solid darkgray;
+    color: rgb(58, 58, 58);
+    font-weight: bold;
+    margin: 4px;
+}
+
+.paginations a:hover {
+    color: white;
+    background-color: rgb(41, 41, 41);
+}
+/* FEATURED GUESTS */
+
+.g-profile-wrapper {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.g-profile {
+    flex-direction: column;
+
+    padding: 30px;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    flex-basis: 30%;
+    box-shadow: 0px 0px 10px grey;
+
+    padding-bottom: 40px;
+    border-radius: 30px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.g-profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px grey;
+
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.g-profile h4 {
+    font-weight: bold;
+}
+
+.g-profile h4, p {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* FOOTER */
+
+footer section {
+    height: 200px;
+    /* top to bottom, when bigger, row */
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}

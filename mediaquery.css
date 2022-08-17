@@ -1,0 +1,159 @@
+/* Tablet: 768px */
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: aliceblue;
+        width: 95%;
+        margin: 0 auto;
+    }
+    .eps {
+        flex-direction: row;
+        height: auto;
+    }
+
+    .thumbnail {
+        height: 300px;
+        flex-basis: 40%;
+    }
+    .eps-detail {
+        flex-grow: 1;
+        justify-content: space-between;
+    }
+
+    .podcast {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        flex-direction: row;
+    }
+
+    footer section {
+        flex-basis: 30%;
+        /* add margin or padding later */
+    }
+
+
+
+}
+
+
+
+
+
+
+
+/* Laptop:  992px */
+@media only screen and (min-width: 992px) {
+    body {
+        background-color: lightblue;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    #nav-links {
+        display: block;
+    }
+
+    #nav-links {
+    list-style-type: none;
+    /* flex container/parent */
+    display: flex;
+    }
+
+    #nav-links li {
+        /* flex item/child */
+    
+        font-size: 2.4rem;
+        text-align: center;
+
+        flex: 1 0 25%;
+    }
+
+    #nav-links li a {
+        color: rgb(31, 31, 31);
+        text-shadow: 0px 2px 4px rgb(119, 119, 119);
+        text-decoration: none;
+    }
+
+    #nav-links li:hover {
+        flex-grow: 2;
+        border-bottom: 4px solid rgb(255, 255, 255);
+    }
+
+    .logo {
+        flex-basis: 30%;
+    }
+
+    nav {
+        flex-basis: 70%;
+    }
+
+    .banner {
+        flex-direction: row;
+        align-items: stretch;
+    }
+
+    .text {
+        flex-basis: 30%;
+    }
+
+    .text h1 {
+        font-size: 7.2rem;
+    }
+
+    .image {
+        flex-basis: 70%;
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* align elements in 1 direction, either row or column*/
+
+    .podcast {
+        flex-direction: row;
+    }
+
+    .podcasters {
+        flex-basis: 30%;
+    }
+
+    /* .eps {
+        border-radius: 15px 15px 15px 15px;
+    } */
+    .episodes {
+        flex-basis: 70%;
+    }
+
+}
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+/* Desktop: 1248px */
+@media only screen and (min-width: 1248px) {
+    body {
+        background-color: lightskyblue;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+
+}
